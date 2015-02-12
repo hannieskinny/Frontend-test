@@ -4,7 +4,6 @@
 	<meta charset="utf-8">
 	<title>FrontEnd Test</title> 
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-  <script type="text/javascript" src="vendor/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="vendor/js/jquery.onepage-scroll.js"></script>
   <link rel='stylesheet' type='text/css' href='vendor/css/onepage-scroll.css'>
   <link rel='stylesheet' type='text/css' href='vendor/css/font-awesome.min.css'>
@@ -43,11 +42,50 @@
             </div>
         </div>
         <div class="container-inner">
-          <h1 class="main-title">DESCUBRE <br/>OMM HOTEL</h1>
-          <p class="description">
-            Y forma parte de un concepto original en Acapulco. Lujo, comodidad y diversión, desde una semana al año en PROPIEDAD FRACCIONAL.
-          </p>
-  	    </div>
+          <div id="carousel-main" class="carousel slide col-xs-12" data-ride="carousel">
+            <!-- Main Slide -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="carousel-caption">
+                  <div class="container-inner">
+                    <h1 class="main-title">DESCUBRE <br/>OMM HOTEL</h1>
+                    <p class="description">
+                      Y forma parte de un concepto original en Acapulco. Lujo, comodidad y diversión, desde una semana al año en PROPIEDAD FRACCIONAL.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="carousel-caption">
+                  <div class="container-inner">
+                    <h1 class="main-title">CONOCE <br/>OMM HOTEL</h1>
+                    <p class="description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="carousel-caption">
+                  <div class="container-inner">
+                    <h1 class="main-title">DISFRUTA <br/>OMM HOTEL</h1>
+                    <p class="description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-main" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-main" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
         <div class="circle-section"><img src="assets/img/btn-down.png"></div>
       </section>
 	    <section class="section-lifestyle">
@@ -132,6 +170,7 @@
       </div>
     </footer>
   </div>
+    <script type="text/javascript" src="vendor/js/bootstrap.min.js"></script>
     <script>
       $(".main").onepage_scroll({
        sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section

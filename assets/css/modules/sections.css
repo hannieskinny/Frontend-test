@@ -1,6 +1,6 @@
 .main section .circle-section{
 	position: absolute;
-	bottom: 36px;
+	bottom: 4%;
 	left: 49%;
 }
 
@@ -17,6 +17,32 @@ section.section-home .logo{
 }
 
 section.section-home .container-inner{ max-width: 739px; }
+
+section.section-home .container-inner {
+margin-top: 0 !important;
+}
+
+.header-main{position: fixed;
+top: 0;
+z-index: 999;}
+
+/* Slide */
+
+#carousel-main, #carousel-main .carousel-inner, #carousel-main .carousel-inner>.item{
+	position: absolute;
+top: 0%;
+left: 0px;
+height: 100%;
+width: 100%;
+}
+
+#carousel-main .carousel-inner{width: 100%;}
+
+.carousel-caption {
+top: 40% !important;
+}
+
+/* End Slide */
 
 /* Section LifeStyle */
 
