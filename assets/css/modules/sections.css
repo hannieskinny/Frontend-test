@@ -23,9 +23,10 @@ section.section-home .container-inner {
 margin-top: 0 !important;
 }
 
-.header-main{position: fixed;
-top: 0;
-z-index: 999;}
+.header-main{
+	position: relative;
+	z-index: 999;
+}
 
 /* Slide */
 
