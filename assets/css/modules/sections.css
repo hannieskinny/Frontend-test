@@ -1,0 +1,24 @@
+.main section.section-home{
+	background: url('../../img/img-top.jpg') no-repeat;
+	background-size: 100%;
+	background-position-y: 18%;
+}
+
+section.section-home .logo{
+	text-align: center;
+	max-width: 144px;
+	position: absolute;
+	left: 40%;
+}
+
+section.section-home .container-inner{ max-width: 739px; }
+
+/* Section LifeStyle */
+
+.main section.section-lifestyle{
+	background: url('../../img/img-mid.jpg') no-repeat;
+	background-size: 100%;
+	background-position-y: 18%;
+}
+
+
