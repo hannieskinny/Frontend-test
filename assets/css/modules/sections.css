@@ -42,6 +42,25 @@ width: 100%;
 top: 40% !important;
 }
 
+#carousel-main .control-left,
+#carousel-main .control-right{
+	position: absolute;
+	color: #fff;
+	bottom: 50%;
+	width: 55px;
+	height: 54px;
+	line-height: 62px;
+	background: #002e4b;
+}
+
+#carousel-main .control-left{
+	left: 0;
+}
+
+#carousel-main .control-right{
+	right: 0;
+}
+
 /* End Slide */
 
 /* Section LifeStyle */

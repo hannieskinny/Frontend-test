@@ -36,10 +36,11 @@ a, a:hover, a:link{
   text-decoration: none;
 }
 
-a:hover{
-	opacity: 0.8;
-  	-moz-opacity: 0.8;
-  	filter: alpha(opacity=80);
+a:hover,
+.btns .btn:hover{
+	opacity: 0.7;
+  	-moz-opacity: 0.7;
+  	filter: alpha(opacity=70);
 }
 
 h1, h2 {
@@ -78,6 +79,30 @@ section p.description{
   z-index: 1;
 }
 
+/* Menu mobile */
+.navbar.navbar-default{
+	background: rgba(51, 51, 51, 0.39);
+	border-color: #575757;
+}
+
+.navbar-default .navbar-brand{ color: #fff; }
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #FFF;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+	color: #CBCBCB;
+}
+
+/*End menu mobile*/
+
+.onepage-pagination{ display: none;}
+
 .btns .btn{
 	color: #fff;
 	font-size: 18px;
@@ -104,3 +129,5 @@ section p.description{
 	background: transparent;
 	border: 2px solid #fff;
 }
+
+.btns .btn-transparent:hover{background: rgba(255, 255, 255, 0.19)};

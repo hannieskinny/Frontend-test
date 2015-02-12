@@ -58,7 +58,7 @@
 	top: 5px;
 }
 
-.header-main:hover .menu-lines-icon::before {
+.header-main .menu-modal:hover .menu-lines-icon::before {
 	bottom: 0;
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
@@ -67,7 +67,7 @@
 	transform: rotate(45deg);
 }
 
-.header-main:hover .menu-lines-icon::after {
+.header-main .menu-modal:hover .menu-lines-icon::after {
 	top: 0;
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
@@ -76,11 +76,11 @@
 	transform: rotate(-45deg);
 }
 
-.header-main:hover .menu-lines-icon{
+.header-main .menu-modal:hover .menu-lines-icon{
 	background: transparent;
 }
 
-.header-main:hover .menu-lines-icon::before,
-.header-main:hover .menu-lines-icon::after {
+.header-main .menu-modal:hover .menu-lines-icon::before,
+.header-main .menu-modal:hover .menu-lines-icon::after {
 	background-color: white;
 }
