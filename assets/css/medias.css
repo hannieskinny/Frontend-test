@@ -1,6 +1,6 @@
 @media screen and (max-width: 1024px){
 	section h1.main-title{
-		font-size: 50px !important;
+		font-size: 40px !important;
 	}
 }
 
@@ -9,11 +9,34 @@
 		width: 100%;
 		padding: 0;
 	}
-}
 
-
-@media screen and (max-width: 480px){
 	section h1.main-title{
 		font-size: 30px !important;
 	}
+
+	.container-inner{
+		margin: 26% auto 0 !important;
+	}
 }
+
+@media screen and (max-width: 480px){
+	section h1.main-title{
+		font-size: 25px !important;
+	}
+
+	.carousel-caption {
+		top: 24% !important;
+	}
+
+	section p.description {
+		font-size: 16px !important;
+	}
+
+	.modal-open .modal{ padding: 0 !important; }
+
+	.container-inner {
+		margin: 14% auto 0 !important;
+	}
+
+}
+

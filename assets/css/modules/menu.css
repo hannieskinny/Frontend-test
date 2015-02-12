@@ -84,3 +84,5 @@
 .header-main .menu-modal:hover .menu-lines-icon::after {
 	background-color: white;
 }
+
+.navbar-default .navbar-nav>li>a { color: #fff;}

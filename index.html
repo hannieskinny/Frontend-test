@@ -19,7 +19,7 @@
           <div class="container">
                 <div class="hidden-xs">
                   <div class="menu-modal pull-left">
-                    <a href="#" class="icon-menu"><i class="menu-lines-icon"></i><span>MENÚ</span></a>
+                    <a href="#" class="icon-menu" data-toggle="modal" data-target=".modal-menu"><i class="menu-lines-icon"></i><span>MENÚ</span></a>
                   </div>
                   <div class="logo"><img src="assets/img/logoOMM.png"></div>
                   <div class="pull-right">
@@ -39,7 +39,7 @@
                     </div>
                     <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="true">
                       <ul class="nav navbar-nav">
-                        <a href="#" class="icon-menu"><i class="menu-lines-icon"></i><span>MENÚ</span></a>
+                        <a href="#" class="icon-menu" data-toggle="modal" data-target=".modal-menu"><i class="menu-lines-icon"></i><span>MENÚ</span></a>
                         <li><a href="#" class=""><i class="fa fa-calendar"></i>RESERVACIONES</a></li>
                       </ul>
                     </div>
@@ -126,7 +126,7 @@
         <div class="circle-section"><img src="assets/img/btn-down.png"></div>
       </section>
     </div>
-    <footer>
+<!--     <section class="footer">
       <div class="container-inner">
         <div class="col-sm-8">
           <div class="col-sm-4">
@@ -172,9 +172,35 @@
         </div>
         <div class="icon-chat"></div>
       </div>
-    </footer>
+    </section> -->
   </div>
     <script type="text/javascript" src="vendor/js/bootstrap.min.js"></script>
+    <div class="modal fade modal-menu" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content fadeInDown animated">
+          <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          </div>
+          <div class="modal-body">
+            <div class="container-inner">
+              <ul class="list-menu">
+                <li>OMM ESMERALDA</li>
+                <li>OMM PRIVILEGE</li>
+                <li>AMENIDADES</li>
+                <li>DESARROLLADOR</li>
+                <li>GALERÍA</li>
+                <li>CONTACTO</li>
+              </ul>
+              <a href="#" class="btn reservations">RESERVACIONES<i class="fa fa-calendar"></i></a>
+              <ul class="social-icons list-inline">
+                <li class="bg-border-icon"><i class="fa fa-facebook fa-1x"></i></li>
+                <li class="bg-border-icon"><i class="fa fa-twitter fa-1x"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script>
       $(".main").onepage_scroll({
        sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
