@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FrontEnd Test</title> 
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="vendor/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="vendor/js/jquery.onepage-scroll.js"></script>
+  <link rel='stylesheet' type='text/css' href='vendor/css/onepage-scroll.css'>
+  <link rel='stylesheet' type='text/css' href='vendor/css/font-awesome.min.css'>
+  <link rel='stylesheet' type='text/css' href='vendor/css/bootstrap.min.css'>
+  <link rel='stylesheet' type='text/css' href='assets/css/base.css'>
+  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+</head>
+<body>
+  <div class="wrapper">
+	  <div class="main">
+      <section class="section-home">
+        <div class="header-main col-sm-12" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+          <div class="container">
+                <div class="hidden-xs">
+                  <div class="pull-left">
+                    <a href="#" class="icon-menu"><i class="menu-lines-icon"></i><span>MENÚ</span></a>
+                  </div>
+                  <div class="logo"><img src="assets/img/logoOMM.png"></div>
+                  <div class="pull-right">
+                    <a href="#" class=""><i class="fa fa-calendar"></i>RESERVACIONES</a>
+                  </div>
+                </div>
+                <nav class="navbar navbar-default visible-xs" role="navigation">
+                  <div class="container-fluid">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">Menu</a>
+                    </div>
+                  </div>
+                </nav>
+            </div>
+        </div>
+        <div class="container-inner">
+          <h1 class="main-title">DESCUBRE <br/>OMM HOTEL</h1>
+          <p class="description">
+            Y forma parte de un concepto original en Acapulco. Lujo, comodidad y diversión, desde una semana al año en PROPIEDAD FRACCIONAL.
+          </p>
+  	    </div>
+      </section>
+	    <section class="section-lifestyle">
+	      <div class="container-inner">
+          <h1 class="main-title">ESTILO DE VIDA OMM HOTEL</h1>
+          <p class="description">Combinemos el entorno natural con arquitectura de primer nivel creando dos conceptos en residencias. ¿Cuál Prefieres?</p>
+          <div class="btns">
+            <a class="btn btn-green" href="#">OMM ESMERALDA</a>
+            <a class="btn btn-blue" href="#">OMM PRIVILEGE</a>
+          </div>
+	      </div>
+      </section>
+	    <section class="section-experience">
+	      <div class="container-inner">
+          <h1 class="main-title">EXPERIENCIA B</h1>
+          <p class="description">Camina por la playa, toma el sol, rema, sumérgete en la zona de nado protegida...todo está en OMM</p>
+          <div class="btns">
+            <a class="btn btn-transparent" href="#">ENAMORATE</a>
+          </div>
+  	    </div>
+      </section>
+      <section class="section-youhere">
+        <div class="container-inner">
+          <h1 class="main-title">
+            QUEREMOS QUE <strong>ESTÉS AQUÍ SIEMPRE</strong>
+          </h1>
+          <p class="description">Ven y conoce nuestro concepto inmobilidario y disfruta un día en nuestro Club de Playa</p>
+          <div class="btns">
+            <a class="btn btn-transparent" href="#">CONÓCENOS</a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="container-inner">
+        <div class="col-sm-8">
+          <div class="col-sm-4">
+            <ul>
+              <li>INICIO</li>
+              <li>B ESMERALDA</li>
+              <li>B PRIVILEGE</li>
+              <li>AMENIDADES</li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <ul>
+              <li>DESARROLLADOR</li>
+              <li>GALERÍA</li>
+              <li>PREGUNTAS FRECUENTES</li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <ul>
+              <li>TÉRMINOS Y CONDICIONES</li>
+              <li>AVISO DE PRIVACIDAD</li>
+              <li>RESERVACIONES</li>
+            </ul>
+          </div>
+          <p class="col-xs-12">
+            Carr. Ejemplo Km 14. Fracc. Diamante. C.P. 39880. Acapulco. Gro. </br>
+            Tel. 01 800 090 5000 · info@ommhotel.com · <span class="text-underline">Mapa<span> · English Version
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h2>OMM NAYARIT</h2>
+          <div class="circle-omm">
+            <div class="circle-border"></div>
+            <span>OMM</span>
+          </div>
+          <div class="col-xs-12 social-icons">
+            <div class="bg-border-icon"><i class="fa fa-facebook"></i></div>
+            <div class="bg-border-icon"><i class="fa fa-instagram"></i></div>
+            <div class="bg-border-icon"><i class="fa fa-twitter"></i></div>
+            <div class="bg-border-icon"><i class="fa fa-pinterest-p"></i></div>
+            <div class="bg-border-icon"><i class="fa fa-youtube"></i></div>
+          </div>
+        </div>
+        <div class="icon-chat"></div>
+      </div>
+    </footer>
+  </div>
+    <script>
+      $(".main").onepage_scroll({
+       sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
+       easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in",
+                                        // "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
+       animationTime: 1000,             // AnimationTime let you define how long each section takes to animate
+       pagination: true,                // You can either show or hide the pagination. Toggle true for show, false for hide.
+       updateURL: false,                // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
+       beforeMove: function(index) {},  // This option accepts a callback function. The function will be called before the page moves.
+       afterMove: function(index) {},   // This option accepts a callback function. The function will be called after the page moves.
+       loop: false,                     // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
+       keyboard: true,                  // You can activate the keyboard controls
+       responsiveFallback: false,        // You can fallback to normal page scroll by defining the width of the browser in which
+                                        // you want the responsive fallback to be triggered. For example, set this to 600 and whenever
+                                        // the browser's width is less than 600, the fallback will kick in.
+       direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".  
+    });
+  </script>
+</body>
+</html>
