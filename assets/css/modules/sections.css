@@ -1,9 +1,11 @@
-.main section{
-	background-position-y: 10%;
+.main section .circle-section{
+	position: absolute;
+	bottom: 36px;
+	left: 49%;
 }
 
 .main section.section-home{
-	background: url('../../img/img-top.jpg') no-repeat;
+	background: url('../../img/img-top.jpg') no-repeat left 10%;
 	background-size: cover;
 }
 
@@ -19,17 +21,17 @@ section.section-home .container-inner{ max-width: 739px; }
 /* Section LifeStyle */
 
 .main section.section-lifestyle{
-	background: url('../../img/img-mid.jpg') no-repeat;
+	background: url('../../img/img-mid.jpg') no-repeat left 10%;
 	background-size: cover;
 }
 
 .main section.section-experience{
-	background: url('../../img/img-mid2.jpg') no-repeat;
+	background: url('../../img/img-mid2.jpg') no-repeat left 10%;
 	background-size: cover;
 }
 
 .main section.section-youhere{
-	background: url('../../img/img-bot.jpg') no-repeat;
+	background: url('../../img/img-bot.jpg') no-repeat left 10%;
 	background-size: cover;
 }
 
